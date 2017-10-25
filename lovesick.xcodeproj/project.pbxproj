@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF8D47781F9F57DC00EC7AB5 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8D47771F9F57DC00EC7AB5 /* TabBarViewController.swift */; };
+		EF8D477A1F9F5CA100EC7AB5 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8D47791F9F5CA100EC7AB5 /* PostViewController.swift */; };
+		EF8D477D1F9F6E6100EC7AB5 /* ExtensionUIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8D477C1F9F6E6100EC7AB5 /* ExtensionUIApplication.swift */; };
+		EF8D477F1F9F711800EC7AB5 /* ExtensionColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8D477E1F9F711800EC7AB5 /* ExtensionColor.swift */; };
+		EF8D47811F9F87F600EC7AB5 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8D47801F9F87F600EC7AB5 /* NotificationViewController.swift */; };
 		EFF5C6D01F9E0F3800A6EEB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF5C6CF1F9E0F3800A6EEB3 /* AppDelegate.swift */; };
-		EFF5C6D21F9E0F3800A6EEB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF5C6D11F9E0F3800A6EEB3 /* ViewController.swift */; };
+		EFF5C6D21F9E0F3800A6EEB3 /* NewFeedsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF5C6D11F9E0F3800A6EEB3 /* NewFeedsViewController.swift */; };
 		EFF5C6D51F9E0F3800A6EEB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFF5C6D31F9E0F3800A6EEB3 /* Main.storyboard */; };
 		EFF5C6D71F9E0F3800A6EEB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFF5C6D61F9E0F3800A6EEB3 /* Assets.xcassets */; };
 		EFF5C6DA1F9E0F3800A6EEB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFF5C6D81F9E0F3800A6EEB3 /* LaunchScreen.storyboard */; };
 		EFF5C6E51F9E0F3800A6EEB3 /* lovesickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF5C6E41F9E0F3800A6EEB3 /* lovesickTests.swift */; };
 		EFF5C6F01F9E0F3800A6EEB3 /* lovesickUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF5C6EF1F9E0F3800A6EEB3 /* lovesickUITests.swift */; };
+		EFF5C7011F9E13FA00A6EEB3 /* NewFeedsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF5C7001F9E13FA00A6EEB3 /* NewFeedsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF8D47771F9F57DC00EC7AB5 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		EF8D47791F9F5CA100EC7AB5 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		EF8D477C1F9F6E6100EC7AB5 /* ExtensionUIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionUIApplication.swift; sourceTree = "<group>"; };
+		EF8D477E1F9F711800EC7AB5 /* ExtensionColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionColor.swift; sourceTree = "<group>"; };
+		EF8D47801F9F87F600EC7AB5 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		EFF5C6CC1F9E0F3800A6EEB3 /* lovesick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lovesick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFF5C6CF1F9E0F3800A6EEB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EFF5C6D11F9E0F3800A6EEB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFF5C6D11F9E0F3800A6EEB3 /* NewFeedsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFeedsViewController.swift; sourceTree = "<group>"; };
 		EFF5C6D41F9E0F3800A6EEB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EFF5C6D61F9E0F3800A6EEB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFF5C6D91F9E0F3800A6EEB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +58,7 @@
 		EFF5C6EB1F9E0F3800A6EEB3 /* lovesickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lovesickUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFF5C6EF1F9E0F3800A6EEB3 /* lovesickUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lovesickUITests.swift; sourceTree = "<group>"; };
 		EFF5C6F11F9E0F3800A6EEB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFF5C7001F9E13FA00A6EEB3 /* NewFeedsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFeedsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +86,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF8D477B1F9F6E5100EC7AB5 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EF8D477C1F9F6E6100EC7AB5 /* ExtensionUIApplication.swift */,
+				EF8D477E1F9F711800EC7AB5 /* ExtensionColor.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		EFF5C6C31F9E0F3800A6EEB3 = {
 			isa = PBXGroup;
 			children = (
@@ -97,11 +118,12 @@
 		EFF5C6CE1F9E0F3800A6EEB3 /* lovesick */ = {
 			isa = PBXGroup;
 			children = (
-				EFF5C6CF1F9E0F3800A6EEB3 /* AppDelegate.swift */,
-				EFF5C6D11F9E0F3800A6EEB3 /* ViewController.swift */,
-				EFF5C6D31F9E0F3800A6EEB3 /* Main.storyboard */,
+				EF8D477B1F9F6E5100EC7AB5 /* Extension */,
+				EFF5C7021F9E217600A6EEB3 /* Storyboard */,
+				EFF5C6FF1F9E13C200A6EEB3 /* Controller */,
+				EFF5C6FE1F9E13BC00A6EEB3 /* Model */,
+				EFF5C6FD1F9E13B600A6EEB3 /* View */,
 				EFF5C6D61F9E0F3800A6EEB3 /* Assets.xcassets */,
-				EFF5C6D81F9E0F3800A6EEB3 /* LaunchScreen.storyboard */,
 				EFF5C6DB1F9E0F3800A6EEB3 /* Info.plist */,
 			);
 			path = lovesick;
@@ -123,6 +145,42 @@
 				EFF5C6F11F9E0F3800A6EEB3 /* Info.plist */,
 			);
 			path = lovesickUITests;
+			sourceTree = "<group>";
+		};
+		EFF5C6FD1F9E13B600A6EEB3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EFF5C7001F9E13FA00A6EEB3 /* NewFeedsTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EFF5C6FE1F9E13BC00A6EEB3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EFF5C6CF1F9E0F3800A6EEB3 /* AppDelegate.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EFF5C6FF1F9E13C200A6EEB3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EFF5C6D11F9E0F3800A6EEB3 /* NewFeedsViewController.swift */,
+				EF8D47771F9F57DC00EC7AB5 /* TabBarViewController.swift */,
+				EF8D47791F9F5CA100EC7AB5 /* PostViewController.swift */,
+				EF8D47801F9F87F600EC7AB5 /* NotificationViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EFF5C7021F9E217600A6EEB3 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				EFF5C6D31F9E0F3800A6EEB3 /* Main.storyboard */,
+				EFF5C6D81F9E0F3800A6EEB3 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +317,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFF5C6D21F9E0F3800A6EEB3 /* ViewController.swift in Sources */,
+				EF8D47781F9F57DC00EC7AB5 /* TabBarViewController.swift in Sources */,
+				EFF5C6D21F9E0F3800A6EEB3 /* NewFeedsViewController.swift in Sources */,
+				EF8D47811F9F87F600EC7AB5 /* NotificationViewController.swift in Sources */,
+				EF8D477F1F9F711800EC7AB5 /* ExtensionColor.swift in Sources */,
+				EF8D477D1F9F6E6100EC7AB5 /* ExtensionUIApplication.swift in Sources */,
 				EFF5C6D01F9E0F3800A6EEB3 /* AppDelegate.swift in Sources */,
+				EFF5C7011F9E13FA00A6EEB3 /* NewFeedsTableViewCell.swift in Sources */,
+				EF8D477A1F9F5CA100EC7AB5 /* PostViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +493,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 877839YT4B;
 				INFOPLIST_FILE = lovesick/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stella.lovesick;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,6 +509,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 877839YT4B;
 				INFOPLIST_FILE = lovesick/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stella.lovesick;
 				PRODUCT_NAME = "$(TARGET_NAME)";
